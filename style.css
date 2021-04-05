@@ -1,0 +1,33 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #A164DF;
+    height: 100vh;
+}
+.container
+{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.container button{
+    background-color: #6B379F;
+    outline: 0;
+    border: 0;
+    padding: 1.5rem 3rem;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
